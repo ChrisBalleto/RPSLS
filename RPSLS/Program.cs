@@ -10,7 +10,7 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
-            GameSequence Player = new GameSequence();
+            Game Player = new Game();
             Player.StartUp();
             
 

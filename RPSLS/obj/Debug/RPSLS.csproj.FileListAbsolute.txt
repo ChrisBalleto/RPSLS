@@ -3,3 +3,4 @@ c:\users\chris balleto\documents\visual studio 2015\Projects\RPSLS\RPSLS\bin\Deb
 c:\users\chris balleto\documents\visual studio 2015\Projects\RPSLS\RPSLS\bin\Debug\RPSLS.pdb
 c:\users\chris balleto\documents\visual studio 2015\Projects\RPSLS\RPSLS\obj\Debug\RPSLS.exe
 c:\users\chris balleto\documents\visual studio 2015\Projects\RPSLS\RPSLS\obj\Debug\RPSLS.pdb
+C:\Users\Chris Balleto\Documents\Visual Studio 2015\Projects\RPSLS\RPSLS\obj\Debug\RPSLS.csprojResolveAssemblyReference.cache

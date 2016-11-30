@@ -10,8 +10,8 @@ namespace RPSLS
     {
         
         public override void MakeChoice()
-        {
-            Console.WriteLine("Please choose a gesture (Rock, Paper, Scissors, Lizard, or Spock)");
+        {            
+            Console.WriteLine("Please choose a gesture {0} (Rock, Paper, Scissors, Lizard, or Spock) then hit <ENTER>", playerName);
             playerChoice = Console.ReadLine().ToLower();
             switch (playerChoice)
             {
@@ -26,9 +26,14 @@ namespace RPSLS
                     MakeChoice();
                     break;
             }
-           
-            
+            ShortBreakAndWarning();
+            Console.Clear();
+        }
 
+        public void ShortBreakAndWarning()
+        {
+            Console.WriteLine("Screen will clear in a moment for next turn");
+            System.Threading.Thread.Sleep(1100);
         }
     }
 }

@@ -7,33 +7,31 @@ using System.Threading.Tasks;
 namespace RPSLS
 {
     public class Player
-    {
-        
+    {      
         public string playerChoice;
         public int score;
         public string playerName;        
         public List<string> gestures = new List<string> { "rock", "paper", "scissors", "spock", "lizard" };
-
 
         public void PlayerGetsPoint()
         {
             score++;
         }
 
-        public void SetPlayerOneName()
+        public void GetGesture()
         {
-           Console.WriteLine("What is your Name Player One?"); 
-           playerName = Console.ReadLine();   
+            Console.WriteLine("{0} had {1}", playerName, playerChoice);
         }
-        public void SetPlayerTwoName()
+
+        public void SetName()
         {
-            Console.WriteLine("What is your name Player Two?");
-            Player.playerName = Console.ReadLine();
-        }
+            Console.WriteLine("What is your Name?");
+            playerName = Console.ReadLine();
+        }       
+
         public virtual void MakeChoice()
         {
-           
-            
+             
         }
         
     }
