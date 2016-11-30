@@ -8,13 +8,14 @@ namespace RPSLS
 {
     class AI: Player
     {
-        public string aiGesture;
-        public List<string> gestures = new List<string> { "rock", "paper", "scissors", "spock", "lizard" };
+        
+        //public List<string> gestures = new List<string> { "rock", "paper", "scissors", "spock", "lizard" };
+
 
         public override void MakeChoice()
         {
             Random choice = new Random();
-            aiGesture = choice.Next(gestures.Length);
+            playerChoice = gestures[choice.Next(0,5)];
             
         }
     }
